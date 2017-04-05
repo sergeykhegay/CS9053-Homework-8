@@ -2,8 +2,8 @@ package edu.nyu.cs9053.homework8.base;
 
 import java.util.Comparator;
 
-public class JobComparator <J extends Job> implements Comparator<J> {
-        
+public class JobComparator<J extends Job> implements Comparator<J> {
+
     @Override public int compare(J o1, J o2) {
         final long startTime1 = o1.getStartTime();
         final long finishTime1 = o1.getFinishTime();
